@@ -1,0 +1,200 @@
+<html>
+  <head>
+    <title>Final Project</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="src/index.js"></script>
+  </head>
+
+  <body>
+    <nav id="navbar-head" class="navbar navbar-dark bg-dark sticky-top">
+      
+    </nav>
+    <div class="myheader ">
+      <div id="header" class="jumbotron text-center">
+        <img
+          class="rounded-circle"
+          src="data:image/jpeg;base64,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"
+          height="250px"
+          width="250px"
+        />
+        <p class="display-3">Aron Falah Wibawa</p>
+        <p class="display-4">
+          UPN "VETERAN" Yogyakarta <br />Teknik Informatika
+        </p>
+      </div>
+    </div>
+    <div id="boutMe" class="container text-center">
+      <h2>About Me</h2>
+      <table class="table table-borderless">
+        <tbody>
+          <tr>
+            <td><h4>Nama Lengkap</h4></td>
+            <td><h4>:</h4></td>
+            <td><h4>Aron Falah Wibawa</h4></td>
+          </tr>
+          <tr>
+            <td><h4>Tempat & Tanggal Lahir</h4></td>
+            <td><h4>:</h4></td>
+            <td><h4>Yogyakarta, 25-Agustus-1998</h4></td>
+          </tr>
+          <tr>
+            <td><h4>Alamat</h4></td>
+            <td><h4>:</h4></td>
+            <td><h4>Sleman,Yogyakarta</h4></td>
+          </tr>
+          <tr>
+            <td><h4>Riwayat Pendidikan</h4></td>
+            <td><h4>:</h4></td>
+            <td><h4>SD 06 Ungaran</h4></td>
+          </tr>
+          <tr>
+            <td colspan="2"></td>
+            <td><h4>SMP 1 Ungaran</h4></td>
+          </tr>
+          <tr>
+            <td colspan="2"></td>
+            <td><h4>SMA 11 Yogyakarta</h4></td>
+          </tr>
+          <tr>
+            <td><h4>Hobi</h4></td>
+            <td><h4>:</h4></td>
+            <td><h4>Membaca Buku, Belajar Coding</h4></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    
+
+    <div id="contactMe" class="container text-center">
+      <h2>Contact Me</h2>
+      <table class="table table-borderless">
+        <tr>
+          <td colspan="2"></td>
+          <td>
+            <img
+              src="data:image/png;base64,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"
+              alt="WhatsApp"
+              width="50px"
+              height="50px"
+            />
+          </td>
+          <td><h4>+6285728013036</h4></td>
+        </tr>
+        <tr>
+          <td colspan="2"></td>
+          <td>
+            <img
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHsAAAB7CAMAAABjGQ9NAAAAllBMVEXy8vL////xQzbTLir8/PzxLRny9vfpwsHRCQDyxcPy+fny/PzxQTTxPjDxOSrxNSX7zcrxcGjy7ezxMR/y3NvxV03xiIL85uXyzcvxJhDyv7zy1dTy5OPxt7TdNi7xT0TxY1rxoJzxmZTxjonxSD3xd3DxaGDxranxXVPxpqPxIADxgHnwAADSJyLXSkfSHxrii4naWlcblRwsAAAD90lEQVRoge2aWXuqMBCGYzA5NSRQRatYccG9nvX//7mTQF2QTGS1vcjc4cLLDLN8yRPU+TpDlm3Zlm3Zlm3ZDbC741dp4073GdZJYd2U/boj0kI8Zah9Y1McKtzuVbEjIrAyHr5R2jKZ0reQJzRBog4ak/RCmr8Yuq2i3eHCP8M4GaO1hy8mgn2bcWf7QFxhXowW/HqJebAdtEVng22QYR3Q7aV6msWkHTibLLwsCqO7axn3YwspR+nxNt4AG2PSbzzubNAneZCGjT1/2my+u1P/Pt4QW6Zck6UuizrgOoyWLUt9NGwq7mw48vUQgI2FiJrxnEYil2Rn9hz4QsZ9UJ9OByd9vKXNkeMAX2F/81435dz3DRBvjB1Hsh3Q9Y9VPbi7+gCddlI2CMdBf1Y95dhsF0A3VuiUDcfd21Se6my60RV1Yin0kw26LvwYVUk5imIfyu+5k2UbUu5QIe5sdjAkWY4Nux6UbrHuND857pxWbDyXZobz8FSq1GVRh6b8vrLPH6onmAv9f+RUL+66m5/Unz4I7Dg6dso4cX2shLcq+tLZygPugU9/DGwyGQI5wsl2ViTudLYl+tj5h+HkxcTuMQQMPFnqBdQUmwBFLccDYj/MbIrcs2DPux4/euluDDgt5biL6EO2rM2lRuAoC0bGUmezEdBEyVL9sQBbCo0V9PhBBLvOoKLmZJXIoCJs82sDSp0OHiZKMbYSlj6Uru+6uLN3qED8i+wtyFZlCswC4e/zcXf34K+Pl0ctzIY1Byf9OxVLaR8q6lvtU5x9s2C9N8/LtFh34gHZkV1Wl2DLuEfQTYP4clNKYyjJvCiTGqXYUlvvoAzafQp49RMg3rs7jV+OncgPwCmeqCk25UBo8oKnJFvevCegl7lGDK2hlBC9XCmWZstSXwKdMhj1oCYaLDVr2fJsmcdHYLoIqKjJUdd6q7Bl04KWc1rzR9rWV41taNZ5M7T8SmxV6qDczprwI2jOVmUjF1xGZ0wu3MEpW5mNKIPq6Wqy7pjhDpXZ0vUe0EfO5vGeSVXVYcuUg+ZV4jTpm5cQtdhKTQHiO5HwDzaI6rENi44CS5e6bLUtqlOxpMBGbG22dD0K7+MuQoN+bZKtdHi21H2zbm+SLefy+qbF8mBdbGuiEXZmM6X4lkxDbLWJlMbd3xXeEmmKjagbyxbLw9gt/pem2ErAY4LLbD02yJYtNi63D9MgG5XceWuWXc4s27It27It27It27It27It27It+5uw+ReyR/yr2L8z5zSfyv7z9/Z86nPZL7Prudznsn+9RMl55CU5289py+yL/ZvcnsNObNDmYezOoJdSepNh9xucP7dsy7Zsy7Zsy65j/wFDuHFp7kENhQAAAABJRU5ErkJggg=="
+              alt="Gmail"
+              width="50px"
+              height="50px"
+            />
+          </td>
+          <td><h4>aronwibawa98@gmail.com</h4></td>
+        </tr>
+      </table>
+
+      <center>
+        <button
+          type="button"
+          class="btn btn-primary"
+          data-toggle="modal"
+          data-target="#contactMeModal"
+        >
+          Send Me E-mail Now!
+        </button>
+      </center>
+      <!-- Modal -->
+      <div
+        class="modal fade"
+        id="contactMeModal"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="contactMeModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="contactMeModalLabel">
+                Send Me E-mail Now!
+              </h5>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form
+                method="POST"
+                action="https://formspree.io/aronwibawa98@gmail.com"
+              >
+                <div class="form-group">
+                  <input
+                    type="email"
+                    name="email"
+                    class="form-control"
+                    placeholder="Your E-mail"
+                  />
+                </div>
+                <div class="form-group">
+                  <textarea
+                    id="textAreaInput"
+                    class="form-control"
+                    name="message"
+                    placeholder="Test Message"
+                  ></textarea>
+                </div>
+              
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-dismiss="modal"
+              >
+                Close
+              </button>
+              <button type="submit" class="btn btn-primary">
+                Send
+              </button>
+            </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="akhir"><p>Copyright &copy; 2018</p></div>
+  </body>
+</html>

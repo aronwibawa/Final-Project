@@ -1,0 +1,27 @@
+.myheader {
+  background-image: url("https://wallpaperplay.com/walls/full/5/4/6/16477.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 1%;
+  background-position: bottom center;
+}
+.jumbotron {
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  overflow: auto;
+}
+.akhir {
+  background-color: black;
+  padding: 5px;
+  text-align: center;
+  color: white;
+  margin-top: 30px;
+}
+#carousel-image {
+  height: 1024px;
+  width: 800px;
+}
+#textAreaInput {
+  height: 25%;
+  resize: none;
+}
